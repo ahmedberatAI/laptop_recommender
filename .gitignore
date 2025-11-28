@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual env
+.venv/
+venv/
+ENV/
+env/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Logs & exports
+logs/
+*.log
+exports/
+debug/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Local caches / artifacts
+*.pkl
+*.pickle
+
+# Data (tercihe bağlı)
+data/*.csv
+data/*.parquet
+data/*.json
+
+# Jupyter (varsa)
+.ipynb_checkpoints/
